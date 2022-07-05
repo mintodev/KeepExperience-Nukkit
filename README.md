@@ -1,4 +1,4 @@
-[![Java CI](https://github.com/MintoD/KeepExperience/actions/workflows/main.yml/badge.svg)](https://github.com/MintoD/KeepExperience/actions/workflows/main.yml)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/mintodev/KeepExperience/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/mintodev/KeepExperience/tree/main)
 
 # KeepExperience
 
