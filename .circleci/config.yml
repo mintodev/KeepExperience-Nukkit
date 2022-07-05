@@ -25,4 +25,4 @@ jobs:
           command: gradle jar
 
       - store_artifacts:
-              path: /tmp/build/libs
+              path: build/libs
