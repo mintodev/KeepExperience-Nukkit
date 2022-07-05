@@ -1,0 +1,30 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: cimg/openjdk:8.0.322
+
+    working_directory: /tmp
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "build.gradle" }}
+            - v1-dependencies-
+
+      - run: gradle dependencies
+
+      - save_cache:
+          paths:
+            - ~/.gradle
+          key: v1-dependencies-{{ checksum "build.gradle" }}
+
+      - run:
+          name: Create a Jar file
+          command: gradle jar
+
+      - store_artifacts:
+              path: /tmp/build/libs
