@@ -5,8 +5,6 @@ jobs:
     docker:
       - image: cimg/openjdk:8.0.322
 
-    working_directory: /tmp
-
     steps:
       - checkout
 
