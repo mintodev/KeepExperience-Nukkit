@@ -1,4 +1,12 @@
+.gradle
+.idea
+build/
+out/
+*.iws
 *.iml
-
-.idea/
-target/
+*.ipr
+!**/src/main/**/out/
+!**/src/test/**/out/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
