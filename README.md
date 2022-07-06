@@ -5,7 +5,7 @@
 Keep experience when players die
 
 # Installation
-
+**NOTE:** Require [KotlinLib](https://cloudburstmc.org/resources/kotlinlib.48/)
 - Download jar file from [here.](https://cloudburstmc.org/resources/keepexperience.757/)
 - Put it in the `plugins` folder
 - Reload server
