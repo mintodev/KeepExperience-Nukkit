@@ -1,4 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/mintodev/KeepExperience/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/mintodev/KeepExperience/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/mintodev/KeepExperience-Nukkit/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/mintodev/KeepExperience-Nukkit/tree/main)
 
 # KeepExperience
 
